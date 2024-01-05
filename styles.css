@@ -1,8 +1,12 @@
 /* Reset some default styles */
 /* 将图片浮动到左侧 */
+
 .personal-photo {
     float: left;
-    margin-right: 20px; /* 可以根据需要调整图片和文字之间的间距 */
+    margin-right: 20px; /* 调整图片和文字间距 */
+    border-radius: 10px; /* 可选：为图片添加圆角 */
+    width: 150px; /* 可调整图片大小 */
+    height: auto; /* 保持图片比例 */
 }
 
 /* 清除浮动，以便下面的元素不受影响 */
@@ -12,12 +16,12 @@
     clear: both;
 }
 
-
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 
 /* Header styles */
 header {
@@ -44,18 +48,22 @@ header nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
 }
+/* 文本排版样式 */
+.intro p, .intro h1 {
+    margin: 0;
+    padding-top: 10px; /* 可根据需要调整 */
+}
 
-/* You can also add media queries to make the navigation responsive */
+/* 在小屏幕上调整布局 */
 @media (max-width: 600px) {
-    header nav ul li {
+    .personal-photo {
+        float: none;
         display: block;
-        margin-right: 0;
+        margin: 0 auto; /* 在小屏幕上居中显示图片 */
     }
 
-    header nav ul li a {
-        display: block;
-        text-align: left;
-        padding: 10px;
+    .intro p, .intro h1 {
+        text-align: center; /* 在小屏幕上居中文本 */
     }
 }
 
