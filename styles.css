@@ -1,1 +1,47 @@
+/* Reset some default styles */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation link styles */
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Link hover effect */
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* You can also add media queries to make the navigation responsive */
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin-right: 0;
+    }
+
+    header nav ul li a {
+        display: block;
+        text-align: left;
+        padding: 10px;
+    }
+}
 
