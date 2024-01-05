@@ -1,7 +1,7 @@
 /* Reset some default styles */
 .personal-photo {
     width: 1000px; /* 调整宽度 */
-    height: auto; /* 保持宽高比例 */
+    height: 1000px; /* 保持宽高比例 */
     border-radius: 50%; /* 圆形边框，可根据需要调整 */
 }
 
