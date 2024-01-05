@@ -5,7 +5,7 @@
     float: left;
     margin-right: 20px; /* 调整图片和文字间距 */
     border-radius: 10px; /* 可选：为图片添加圆角 */
-    width: 50px; /* 可调整图片大小 */
+    width: 150px; /* 可调整图片大小 */
     height: auto; /* 保持图片比例 */
 }
 
