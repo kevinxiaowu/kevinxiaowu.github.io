@@ -1,4 +1,9 @@
 /* Reset some default styles */
+img {
+    width: 200px;
+    height: auto;
+}
+
 ul {
     margin: 0;
     padding: 0;
