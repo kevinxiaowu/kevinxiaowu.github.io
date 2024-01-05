@@ -1,7 +1,15 @@
 /* Reset some default styles */
+/* 将图片浮动到左侧 */
 .personal-photo {
-    width: 200px; /* 设置更大的宽度值 */
-    height: auto;
+    float: left;
+    margin-right: 20px; /* 可以根据需要调整图片和文字之间的间距 */
+}
+
+/* 清除浮动，以便下面的元素不受影响 */
+.intro::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
